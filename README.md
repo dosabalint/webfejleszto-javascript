@@ -12,13 +12,13 @@ https://www.facebook.com/groups/364060044017273/
 
 ## 1. alkalom - 2018 május 1.
 
-### 1/1. feladat - Bevezető
+### 1/1. feladat - DevTools
 
 **Repository**
 
 https://github.com/dosabalint/webfejleszto-javascript-01-01
 
-### 1/2. feladat - Random színű gomb
+### 1/2. feladat - Példakódok
 
 **Repository**
 
