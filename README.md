@@ -23,3 +23,21 @@ https://github.com/dosabalint/webfejleszto-javascript-01-01
 **Repository**
 
 https://github.com/dosabalint/webfejleszto-javascript-01-02
+
+## 2. alkalom - 2018 május 3.
+
+### 2/1. feladat - Számológép
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-javascript-02-01
+
+### 2/2. feladat - Szövegszerkesztő
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-javascript-02-02
+
+
+
+
