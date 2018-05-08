@@ -58,3 +58,36 @@ Egy textarea és néhány gomb segítségével szövegbe szúrhatunk be HTML tag
 **Repository**
 
 https://github.com/dosabalint/webfejleszto-javascript-02-02
+
+## 3. alkalom - 2018 május 8.
+
+### 3/1. feladat - Kereső
+
+**Feladat**
+
+Filmlistában szűrünk majd egy keresőmezővel.
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-javascript-03-01
+
+### 3/2. feladat - Kosár
+
+**Feladat**
+
+Kosarunkba rakunk majd termékeket, darabszámmal és egységárral. Termékenként számítva az összeget.
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-javascript-03-02
+
+### 3/3. feladat - Háztartási napló
+
+**Feladat**
+
+Kiadásainkat listázzuk majd és számítjuk ki az összegüket.
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-javascript-03-03
+
