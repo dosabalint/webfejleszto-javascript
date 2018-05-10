@@ -91,3 +91,14 @@ Kiadásainkat listázzuk majd és számítjuk ki az összegüket.
 
 https://github.com/dosabalint/webfejleszto-javascript-03-03
 
+## 4. alkalom - 2018 május 10.
+
+### 4/1. feladat - Amőba
+
+**Feladat**
+
+Négyzetrácson gyalogolva X és O karakterekkel játszhatunk.
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-javascript-04-01
