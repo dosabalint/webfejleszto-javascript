@@ -99,6 +99,19 @@ Négyzetrácson gyalogolva X és O karakterekkel játszhatunk.
 
 https://github.com/dosabalint/webfejleszto-javascript-04-01
 
+## 5. alkalom - 2018 május 15.
+
+### 5/1. feladat - Memóriajáték
+
+**Feladat**
+
+Kártyákat töltünk majd fel értékekkel, amikre kattintva azok "megfordulnak".
+Mindezt úgy csináljuk, hogy a kártyának mint objektumnak már saját felelősségei lesznek.
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-javascript-05-01
+
 ## Háttérzene
 
 https://www.youtube.com/watch?v=200u13IEkbk
