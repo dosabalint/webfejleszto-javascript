@@ -112,6 +112,18 @@ Mindezt úgy csináljuk, hogy a kártyának mint objektumnak már saját felelő
 
 https://github.com/dosabalint/webfejleszto-javascript-05-01
 
+## 6. alkalom - 2018 május 17.
+
+### 5/1. feladat - Catch
+
+**Feladat**
+
+Zuhanó labdákat kapkodunk majd el egy dobozzal. A doboz az egérre reagálva mozog majd jobbra-balra.
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-javascript-06-01
+
 ## Háttérzene
 
 https://www.youtube.com/watch?v=200u13IEkbk
