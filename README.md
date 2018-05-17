@@ -114,7 +114,7 @@ https://github.com/dosabalint/webfejleszto-javascript-05-01
 
 ## 6. alkalom - 2018 május 17.
 
-### 5/1. feladat - Catch
+### 6/1. feladat - Catch
 
 **Feladat**
 
