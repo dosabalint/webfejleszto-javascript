@@ -124,6 +124,18 @@ Zuhanó labdákat kapkodunk majd el egy dobozzal. A doboz az egérre reagálva m
 
 https://github.com/dosabalint/webfejleszto-javascript-06-01
 
+## 7. alkalom - 2018 május 22.
+
+### 7/1. feladat - Snake
+
+**Feladat**
+
+Kígyóval navigálunk a négyzetrácson, almákat kergetve.
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-javascript-07-01
+
 ## Háttérzene
 
 https://www.youtube.com/watch?v=200u13IEkbk
