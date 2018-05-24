@@ -136,6 +136,18 @@ Kígyóval navigálunk a négyzetrácson, almákat kergetve.
 
 https://github.com/dosabalint/webfejleszto-javascript-07-01
 
+## 8. alkalom - 2018 május 24.
+
+### 8/1. feladat - Flappy Bird
+
+**Feladat**
+
+Madárral röpködünk majd oszlopok között.
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-javascript-08-01
+
 ## Háttérzene
 
 https://www.youtube.com/watch?v=200u13IEkbk
