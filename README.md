@@ -14,7 +14,7 @@
 
 ## Elérhetőségek
 
-Ha általánosabb kérdésed van, nézz be a GY.I.K. doksiba.
+Ha általánosabb kérdésed van, nézz bele ebbe [GY.I.K. doksi](gyik.md).
 
 Ha úgy érzed, hogy ott lenne a helye a kérdésednek, akkor szólj és kiegészítem.
 
