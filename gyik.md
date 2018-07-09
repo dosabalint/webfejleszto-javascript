@@ -154,21 +154,78 @@ do {
 
 ### Melyiket mikor használjuk?
 
-> Ezt teljes mértékben a feladat határozza meg. 
-> * Van amikor nem szükséges indexelni, de végig kell szaladni minden elemen. Olyankor jól járahtunk egy for..in-nel. 
-> * Van amikor nem léphetünk be a ciklusba, ha nem teljesül egy feltétel. Olyankor jó az előltesztelő.
-> * Van amikor be kell lépnünk a ciklusba, de ha a feltétel nem teljesül, akkor csak egyszer kell lefuttatnunk. Ilyenkor hasznos a hátultesztelő.
+> Ezt teljes mértékben a feladat határozza meg.
+>
+> -   Van amikor nem szükséges indexelni, de végig kell szaladni minden elemen. Olyankor jól járahtunk egy for..in-nel.
+> -   Van amikor nem léphetünk be a ciklusba, ha nem teljesül egy feltétel. Olyankor jó az előltesztelő.
+> -   Van amikor be kell lépnünk a ciklusba, de ha a feltétel nem teljesül, akkor csak egyszer kell lefuttatnunk. Ilyenkor hasznos a hátultesztelő.
 
 ---
 
 ## Functiont mindig muszáj kiírni? Ha nem, akkor mikor nem?
 
-> folyamatban
+> Többféleképp adhatunk meg függvényt
+
+> Egyik általános fomája az alábbi. Ekkor van neki saját neve, ami alapján meghívhatjuk. Van neki továbbá saját scope-ja, ami alatt értendő, hogy saját this értéke van.
+
+```js
+// név szerint hívható függvény
+function osszead(parameter1, parameter2) {
+    return parameter1 + parameter2;
+}
+console.log(osszead(1, 2));
+```
+
+> Másik lehetőség, hogy anonim függvényt csinálunk belőle. Ez hasznos lehet egy mondjuk egy mappelésnél, ha nem akarjuk külön névvel ellátni. Másik lehetőség anonim függvényre, hogy nyíl függvényként adjuk meg. Ekkor azonban nem rendelkezik majd saját this-sel, azaz nem lesz scope-ja.
+
+> Az alábbi példában a this-t nem használjuk, de akadnak olyan esetek, ahol ez jelentős különbség a kettő között.
+
+```js
+// anonim függvény saját scoppal
+const tomb = [1, 2, 3];
+console.log(
+    tomb.map(function(elem) {
+        return elem * elem;
+    })
+);
+```
+
+```js
+// arrow függvény scope nélkül
+const tomb = [1, 2, 3];
+console.log(
+    tomb.map(elem => {
+        return elem * elem;
+    })
+);
+```
 
 ---
 
 ## Mire jó az esemény?
 
-> folyamatban
+> Az eseményeket úgy kell elképzelni, mint a kisgyermek ordítását, amivel azt jelzi, hogy valami nincs rendben. Ha nem a hétköznapi szemüvegünkkel nézzük a gyermek-ordítás-anya kontextust, akkor van két szereplőnk (gyermek, anya) és egy eseményünk (ordítás). A két szereplő nincsen összekötve fix pontok mentén, külön szereplőként látjuk őket magunk előtt. Ám ha a gyermek eltüzeli az ordítás eseményt, akkor erre az anyuka fel van iratkozva és reagál valamilyen cselekvéssel.
+>
+> Ha visszatérünk a webfejlesztéshez, akkor egy gombnak mint szereplőnek is vannak eseményei, például a click. Ezzel jelzi nekünk, hogy kattintottak rá egyet. Egy ilyen kattintásra reagálhatunk egy másik szereplővel, aki erre az eseményre feliratkozott. Például elküldheti egy szerver felé a formban összegyűjtött adatokat és jelezhet a felhasználónak, hogy sikeres vagy sikertelen volt a művelet.
+>
+> Az eseményeket tehát úgy vegyük mint kapcsolati pontokat szereplők között, amik mentén reagálni tudunk bizonyos történésekre. Ilyen történéseket hozhatunk létre mi is, de reagálhatunk már kész történésekre is. Ezek viszont nem úgy történnek, mint a fix függvényhívások, hanem sokkal kötetlenebb a kapcsolat a szereplők között.
+
+```html
+<button id="azEnGombom">0 kattintás</button>
+
+<script>
+    // elem kikeresése
+    let gombElem = document.getElementById('azEnGombom');
+    
+    // számláló induló érték beállítása
+    let szamlalo = 0;
+    
+    // eseményre feliratkozás
+    gombElem.addEventListener('click', function (){
+        szamlalo++;
+        this.innerText = szamlalo + ' kattintás';
+    });
+</script>
+```
 
 ---
