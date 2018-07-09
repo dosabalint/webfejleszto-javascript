@@ -1,6 +1,22 @@
 # Webfejlesztő leszek! VueJS Edition - Javascript repositoryk
 
+## Tartalomjegyzék
+
+* [1. alkalom - 2018 május 1.](#1-alkalom---2018-május-1)
+* [2. alkalom - 2018 május 3.](#2-alkalom---2018-május-3)
+* [3. alkalom - 2018 május 8.](#3-alkalom---2018-május-8)
+* [4. alkalom - 2018 május 10.](#4-alkalom---2018-május-10)
+* [5. alkalom - 2018 május 15.](#5-alkalom---2018-május-15)
+* [6. alkalom - 2018 május 17.](#6-alkalom---2018-május-17)
+* [7. alkalom - 2018 május 22.](#7-alkalom---2018-május-22)
+* [8. alkalom - 2018 május 24.](#8-alkalom---2018-május-24)
+* [Gyakran Ismételt Kérdések](gyik.md)
+
 ## Elérhetőségek
+
+Ha általánosabb kérdésed van, nézz be a GY.I.K. doksiba.
+
+Ha úgy érzed, hogy ott lenne a helye a kérdésednek, akkor szólj és kiegészítem.
 
 **NetAcademia Frontend csoport facebookon**
 
